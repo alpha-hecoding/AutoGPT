@@ -2,7 +2,8 @@ import asyncio
 import json
 import uuid
 
-from prisma.models import AgentGraph, AgentNode, AgentNodeLink, AgentNodeExecution
+from prisma.models import (AgentGraph, AgentNode, AgentNodeExecution,
+                           AgentNodeLink)
 
 from autogpt_server.data.db import BaseDbModel
 
